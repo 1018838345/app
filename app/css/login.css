@@ -1,0 +1,163 @@
+.container{
+    width:7.5rem;
+    height: auto;
+    position:relative;
+    text-align: center;
+}
+.nav{
+    width:7.5rem;
+    height: 13.34rem;
+    background: red;
+}
+.nav img{
+    filter:alpha(opacity=90);
+    opacity:0.9;
+    width:7.5rem;
+    height: 13.34rem;
+}
+.login{
+    width: 0.89rem;
+    height: 0.49rem;
+    background-color:#ffffff;
+    border-radius: 0.25rem;
+    position: absolute;
+    top: 0.29rem;
+    left: 6.19rem;
+
+}
+.Logo img{
+    position: absolute;
+    top: 1.38rem;
+    left: 2.27rem;
+    width: 2.83rem;
+    height:2.83rem;
+    border-radius: 0.57rem;
+    margin-bottom: 0.97rem;
+}
+.List{
+    width: 6.68rem;
+    height: 4.37rem;
+    background-color: #fff;
+    border-radius: 0.32rem;
+    opacity: 0.89;
+    position:absolute;
+    top: 5.16rem;
+    left:0.41rem ;
+}
+.List li{
+    width: 5.55rem;
+    height: 0.79rem;
+    border-radius: 0.4rem;
+    border: solid 0.01rem #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.listBox{
+    width: 5.55rem;
+    height: 1.95rem;
+    /*background: #16b0dc;*/
+    margin:0.975rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.listBox .circle{
+    width: 0.24rem;
+    height: 0.11rem;
+    background-color: #e1c188;
+    border-radius: 0.06rem;
+
+}
+.listBox .item input{
+    border: none;
+    background: none;
+    font-size: 0.3rem;
+
+}
+.findPassword{
+    width: 5.55rem;
+    height: 0.5rem;
+    /*background: #76838f;*/
+    text-align: left;
+    position: relative;
+    bottom: 0.5rem;
+    left: 0.565rem;
+}
+.right{
+    width: 3.09rem;
+    height: 0.97rem;
+    background-color: #b9b9b9;
+    border-radius: 0.49rem;
+    /*margin: -0.465rem auto 0;*/
+    font: 1rem/0.97rem "Microsoft YaHei",sans-serif;
+    color: rgba(255,255,255,0.6);
+    position: relative;
+    top:-0.465rem ;
+    /*left: 0.5rem;*/
+}
+
+.footer{
+    width:5.22rem;
+    height: 0.6rem;
+    font-size: 0.3rem;
+    background: none;
+    margin: 0 auto;
+    position: relative;
+    bottom: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .solid{
+    width: 1.32rem;
+    height: 0.01rem;
+    background-color: #000000;
+
+}
+.rule .circle{
+    width: 0.1rem;
+    height: 0.1rem;
+    background-color: #626262;
+    border: solid 0.16rem rgba(255, 255, 255,1);
+    border-radius: 50%;
+    float: left;
+}
+.Button{
+    width: 2.94rem;
+    height: 0.64rem;
+    /*background: #16b0dc;*/
+    position: absolute;
+    bottom: 0.71rem;
+    left:2.28rem;
+    display: flex;
+    justify-content: space-between;
+}
+.Button .circle{
+    width: 0.64rem;
+    height: 0.64rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+.Button img{
+    width: 0.32rem;
+    height: 0.38rem;
+    margin: 0 auto;
+    /*line-height: 0.64rem;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

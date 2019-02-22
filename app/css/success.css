@@ -1,0 +1,108 @@
+.container{
+    width:7.5rem;
+    height: auto;
+    position:relative;
+    /*text-align: center;*/
+    box-sizing: border-box;
+}
+.header{
+    width: 7.5rem;
+    height: 0.9rem;
+    background-image: linear-gradient(-83deg, #ff0101 0%, #ff2801 61%, #ff4e00 100%);
+}
+.nav{
+    width: 7.2rem;
+    height: 0.88rem;
+    /*background: red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    /*background: #16b0dc;*/
+    color: #fff;
+}
+.nav img{
+    width: 0.33rem;
+    height: 0.33rem;
+}
+
+.top img{
+    width: 5.08rem;
+    height: 3.49rem;
+    margin: 0.7rem 1.55rem 1.66rem 0.87rem  ;
+}
+.font{
+    width: 3.8rem;
+    height: auto;
+    /*background: #ff6700;*/
+    margin: 0 auto 1.8rem;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000000;
+    opacity: 0.6;
+    font-size: 0.36rem;
+}
+.circleBox{
+    width: 0.35rem;
+    height: 0.1rem;
+    /*background: red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.circleBox .circle{
+    width: 0.08rem;
+    height: 0.08rem;
+    background-color: #33c17c;
+    border-radius: 50%;
+}
+.button{
+    width: 3.37rem;
+    height: 2.61rem;
+    /*background: #76838f;*/
+    margin: 0 auto 1.05rem;
+    display: flex;
+    justify-content: center;
+    align-content:space-between;
+    flex-wrap: wrap;
+
+}
+.button1 input{
+    width: 3.37rem;
+    height: 1.04rem;
+    background-image: linear-gradient(90deg, #ff4e00 0%, #ff0901 100%);
+    box-shadow: 0 0.01rem 0.2rem 0 #ff0901;
+    border-radius: 0.52rem;
+}
+.button2 input{
+    width: 3.37rem;
+    height: 1.04rem;
+    background-image: linear-gradient(90deg, #f7ce31 0%, #feac2f 100%);
+    box-shadow: 0 0.01rem 0.2rem 0 #feac2f;
+    border-radius: 0.52rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

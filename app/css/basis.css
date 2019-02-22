@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 100px;
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+}
+.contain{
+    display: flex;
+    top: 0;
+    left: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+input{
+    border: none;
+    background: none;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background: #fff;
+}
+@media (min-width: 320px) {
+    html{
+        font-size:42.67px;
+    }
+}
+@media (min-width: 360px) {
+    html{
+        font-size: 48px;
+    }
+}
+@media (min-width: 375px) {
+    html{
+        font-size: 50px;
+    }
+}
+@media (min-width: 414px) {
+    html{
+        font-size: 55.2px;
+    }
+}
+i{
+    list-style: normal;
+}
+img{
+    display: block;
+}
