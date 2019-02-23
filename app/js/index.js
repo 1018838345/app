@@ -1,34 +1,34 @@
 let pagers = document.querySelectorAll(".pagerBox>li");
-let imags = document.querySelectorAll(".imgBox>li");
+let images = document.querySelectorAll(".imgBox>li");
 let banner = document.querySelector(".banner");
 console.log(pagers);
-console.log(imags);
+console.log(images);
 console.log(banner);
 let flag=false;
 pagers.forEach(function (ele, index) {
     ele.onclick = function () {
         for (let i = 0; i < pagers.length; i++) {
             pagers[i].classList.remove("active");
-            imags[i].classList.remove("active");
+            images[i].classList.remove("active");
         }
         pagers[index].classList.add("active");
-        imags[index].classList.add("active");
+        images[index].classList.add("active");
     }
 });
 let now = 0;
 function move () {                                            //创建move函数
     now++;
-    if (now===imags.length) {                                  //当now=imgs的长度,将now的值变为0
+    if (now===images.length) {                                  //当now=images的长度,将now的值变为0
         now=0;
     }
     if (now===-1){
-        now=imags.length-1;
+        now=images.length-1;
     }
-    for (let i=0;i<imags.length;i++) {
-        imags[i].classList.remove("active");
+    for (let i=0;i<images.length;i++) {
+        images[i].classList.remove("active");
         pagers[i].classList.remove("active");
     }
-    imags[now].classList.add("active");
+    images[now].classList.add("active");
     pagers[now].classList.add("active");
 }
 
